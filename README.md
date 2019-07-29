@@ -1,7 +1,7 @@
 # THP_gossip
 
 Ceci est une application permettant de créer, consulter et supprimer toutes sorte de ragots. 
-Elle est effectuée en POO sur un modèle MVC
+Elle est effectuée en POO sur un modèle MVC. </br>
 Pour lancer, exécutez le fichier app
 
 # Etat : 
