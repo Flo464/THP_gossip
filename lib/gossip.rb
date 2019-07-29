@@ -16,9 +16,9 @@ class Gossip
 	end
 
 	def self.all
-		all_gossips = Array.new
+		all_gossips = []
 
-		CSV.open("db/gossip.csv", "r") do |ligne|
+		CSV.open("db/gossip.csv").each do |ligne|
 			temp = Gossip.new(ligne[0], ligne[1])
 			all_gossips << temp 
 		end 

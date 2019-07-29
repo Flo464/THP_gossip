@@ -15,13 +15,14 @@ class View
 
 	def index_gossips (gossips)
 		gossips.each do |ligne|
-			puts ligne 
+			puts "#{ligne.author}, #{ligne.content}"
 		end
 	end 
 
 	def destroy (gossip)
 		puts "Quel ragot veux-tu détruire ?"
 		number = gets.chomp
+	end 
 
 end 
 
